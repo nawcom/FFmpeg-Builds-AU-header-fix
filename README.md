@@ -1,3 +1,11 @@
+# FFmpeg AU header fix
+
+In certain brands of IP cameras (Hikivision, Anpviz) with AAC audio in their RTSP feeds, ffmpeg would report AU header parsing errors as stated in mpv-player issues: https://github.com/mpv-player/mpv/issues/5669. A patch is mentioned which works, but has not been merged into ffmpeg yet: https://github.com/mpv-player/mpv/issues/5669#issuecomment-932519409
+
+This fork of FFmpeg-Builds includes this patch, and is also applied to all release versions for 64-bit Linux and Windows. 
+
+I ran into this issue myself with an Anpiz IP camera being used with Frigate and needed a static binary with this patch applied, which got me to make this fork. For anyone who ended up here for the same reason regarding Frigate, these static binary will work fine with frigate:stable and frigate:stable-tensorrt images, GPU encoding/decoding included. frigate:stable-tensorrt-jp6 is NOT SUPPORTED.
+
 # FFmpeg Static Auto-Builds
 
 Static Windows (x86_64) and Linux (x86_64) Builds of ffmpeg master and latest release branch.
