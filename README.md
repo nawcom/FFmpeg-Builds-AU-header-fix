@@ -8,7 +8,7 @@ I ran into this issue myself with an Anpviz IP camera being used with [Frigate](
 
 **frigate:stable-tensorrt-jp6** is ***NOT SUPPORTED***. 
 
-For using custom static ffmpeg builds, refer to https://docs.frigate.video/configuration/advanced/#custom-ffmpeg-build. 
+For using custom static ffmpeg builds used in Frigate, refer to https://docs.frigate.video/configuration/advanced/#custom-ffmpeg-build. 
 
 # FFmpeg Static Auto-Builds
 
