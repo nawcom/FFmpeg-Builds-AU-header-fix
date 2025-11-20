@@ -4,7 +4,10 @@ In certain brands of IP cameras (Hikivision, Anpviz) with AAC audio in their RTS
 
 This fork of FFmpeg-Builds includes this patch, and is also applied to all release versions for 64-bit Linux and Windows. 
 
-I ran into this issue myself with an Anpviz IP camera being used with [Frigate](https://github.com/blakeblackshear/frigate) and needed a static binary with this patch applied, which got me to make this fork. For anyone who ended up here for the same reason regarding Frigate, these static binaries will work fine with **frigate:stable**, **frigate:stable-rocm (AMD GPUs)**, and **frigate:stable-tensorrt (Nvidia GPUs)**.
+I ran into this issue myself with an Anpviz IP camera being used with [Frigate](https://github.com/blakeblackshear/frigate) and needed a static binary with this patch applied, which got me to make this fork. For anyone who ended up here for the same reason regarding Frigate, these static binaries will work fine with:
+* **frigate:stable**
+* **frigate:stable-rocm (AMD GPUs)**
+* **frigate:stable-tensorrt (Nvidia GPUs)**.
 
 **frigate:stable-tensorrt-jp6** is ***NOT SUPPORTED***. 
 
