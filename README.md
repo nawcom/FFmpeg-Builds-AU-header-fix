@@ -13,6 +13,8 @@ I ran into this issue myself with an Anpviz IP camera being used with [Frigate](
 
 For using custom static ffmpeg builds used in Frigate, refer to https://docs.frigate.video/configuration/advanced/#custom-ffmpeg-build. 
 
+---
+
 # FFmpeg Static Auto-Builds
 
 Static Windows (x86_64) and Linux (x86_64) Builds of ffmpeg master and latest release branch.
