@@ -1,6 +1,6 @@
 # FFmpeg AU header fix
 
-In certain brands of IP cameras (Hikivision, Anpviz) with AAC audio in their RTSP feeds, ffmpeg would report AU header parsing errors as stated in mpv-player issues: https://github.com/mpv-player/mpv/issues/5669. A patch is mentioned which works, but has not been merged into ffmpeg yet: https://github.com/mpv-player/mpv/issues/5669#issuecomment-932519409
+In certain brands of IP cameras (Hikivision, Anpviz) with AAC audio in their RTSP feeds, ffmpeg would report AU header parsing errors as stated in mpv issues: https://github.com/mpv-player/mpv/issues/5669. A patch is mentioned which works, but has not been merged into ffmpeg yet: https://github.com/mpv-player/mpv/issues/5669#issuecomment-932519409
 
 This fork of FFmpeg-Builds includes this patch, and is also applied to all release versions for 64-bit Linux and Windows. 
 
